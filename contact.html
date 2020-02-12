@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <title>
+      Bootstrap Portfolio
+    </title>
+  </head>
+
+  <style>
+    body {
+      background-image: url("images/rockywall.png");
+    }
+    .myContainer {
+      background-color: white;
+      position: relative;
+      width: 50%;
+    }
+
+    .col-lg-12 {
+      border: 1px solid #101010;
+    }
+
+    h1 {
+      border-bottom: 1px solid #101010;
+    }
+
+    .form-group {
+      overflow-y: none;
+    }
+
+    .btn {
+      margin: 10px 10px 10px 0px;
+      background-color: #101010;
+      color: white;
+      border: 1px solid grey;
+    }
+
+    footer {
+      width: 100%;
+      height: 30px;
+      bottom: 0;
+      padding-top: 5px;
+      text-align: center;
+      color: #101010;
+      background-color: white;
+      font-family: "Helvetica";
+      border-top: 1px solid #101010;
+      position: fixed;
+      overflow: auto;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">dustin george</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav  navbar-right" id="navbar-links">
+            <li><a href="index.html" id="no-border-about">About</a></li>
+            <li><a>|</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a>|</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <div class="container myContainer">
+      <div class="row myRow">
+        <div class="col-lg-12 offset-2">
+          <h1>contact</h1>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="First Last"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; 2020 dustin george</small>
+      </div>
+    </footer>
+  </body>
+</html>
