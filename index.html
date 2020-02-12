@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <title>
+      Bootstrap Portfolio
+    </title>
+  </head>
+
+  <style>
+    body {
+      background-image: url("images/rockywall.png");
+    }
+    .myContainer {
+      background-color: white;
+      position: relative;
+      width: 50%;
+    }
+
+    .col-lg-12 {
+      border: 1px solid #101010;
+    }
+
+    h1 {
+      border-bottom: 1px solid #101010;
+    }
+
+    #picture {
+      width: 200px;
+      height: 200px;
+      float: left;
+      margin-right: 10px;
+    }
+
+    footer {
+      width: 100%;
+      height: 30px;
+      bottom: 0;
+      padding-top: 5px;
+      text-align: center;
+      color: #101010;
+      background-color: white;
+      font-family: "Helvetica";
+      border-top: 1px solid #101010;
+      position: fixed;
+      overflow: auto;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">dustin george</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav  navbar-right" id="navbar-links">
+            <li><a href="index.html" id="no-border-about">About</a></li>
+            <li><a>|</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a>|</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <div class="container myContainer">
+      <div class="row myRow">
+        <div class="col-lg-12 offset-2">
+          <h1>about me</h1>
+          <img
+            class="img-fluid"
+            src="images/IMG_1593.PNG"
+            alt="Headshot"
+            id="picture"
+          />
+          <p>
+            I am originally from a background in film and media specializing in
+            lighting, lighting design, and writing. I has always been my dream
+            to work behind the camera and see how all my forvite films and shows
+            were made. After a few years of freelancing I decided that I would
+            rather have a stable job in one location.
+          </p>
+
+          <p>
+            This is when I made the choice to jump straight into the programming
+            world. I have always loved technology. One of my favorite hobbies is
+            taking apart various electronics and building them again with
+            different shells. Once I had a grasp on hardware I wanted to move
+            onto software and the core of computer technology.
+          </p>
+
+          <p>
+            From here, I would like to keep pursuing my hobbies and gaining more
+            skills. Eventually, I will build a gaming cabnet from the ground up.
+          </p>
+          <p>
+            I also love beer. I have brewed my own as well as worked in a
+            brewery. I got to drink on the job while I worked! How cool is that
+            shit?
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; Your Website</small>
+      </div>
+    </footer>
+  </body>
+</html>
